@@ -1,0 +1,39 @@
+.header {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+
+  .logo-body {
+    height: 100%;
+    width: 300px;
+
+    .logo-container {
+      height: 100%;
+      width: 100px;
+      padding: 25px;
+
+      .logo:hover {
+        fill: #BBB;
+      }
+    }
+  }
+
+  .options {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .option {
+      padding: 10px 15px;
+      cursor: pointer;
+    }
+
+    .option:hover {
+      color: #BBB;
+    }
+  }
+}
